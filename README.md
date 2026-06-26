@@ -24,3 +24,7 @@ Mobile-first Vercel app with live scoring, photo evidence, locked challenges, se
 - Teams can only unlock the next venue after every challenge on the current venue has a photo and submitted points.
 - Submitted challenges are locked.
 - The gallery only opens after the best man finishes the round.
+
+
+## V3 riddle update
+The riddle section now includes all 25 riddles with a free-type answer box per riddle. Teams submit once to lock their answers. Answers are stored in existing JSON fields, so no urgent database migration is required.
